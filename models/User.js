@@ -11,5 +11,5 @@ const userSchema = new Schema({
   timestamps: true,
 });
 
-const User = mongoose.model('Movie', userSchema);
+const User = mongoose.model('User', userSchema);
 module.exports = User;
